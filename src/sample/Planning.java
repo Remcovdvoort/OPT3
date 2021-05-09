@@ -12,7 +12,7 @@ public class Planning {
     }
 
     public boolean kloppendePlanning (boolean datum, int getal, boolean vakje){
-        return (datum ==datumAfspraak) ^ ((getal > positiefAantalMinuten) & (vakje == vakjeAangevinkt));
+        return (datum == datumAfspraak) ^ ((getal > positiefAantalMinuten) & (vakje == vakjeAangevinkt));
     }
 }
 
