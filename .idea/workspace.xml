@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sample/Equivalentie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sample/EquivalentieklassenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +120,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModifiedTest">
+  <component name="RunManager" selected="JUnit.EquivalentieklassenTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -161,6 +165,25 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquivalentieklassenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OPT3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.EquivalentieklassenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,6 +260,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EquivalentieklassenTest" />
         <item itemvalue="JUnit.ModifiedTest" />
         <item itemvalue="JUnit.ModifiedTest.testMethod" />
       </list>
@@ -294,22 +318,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1620370583692" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1620575920907">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1620596155885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620575920907" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1620575920907">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155885" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1620596155884">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620575920907" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1620575920907">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1620596155884">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620575920907" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1620575920907">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1620596155884">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620575920907" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1620370717651">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
