@@ -2,20 +2,20 @@ package sample;
 
 import java.util.ArrayList;
 
+
+
 public class StatistiekGegeven {
 
 
         ArrayList<Account> accounts = new ArrayList<>();
         private String naam;
 
-
-
-        public void afspraakKlaar(Account ac) {
-            accounts.add(ac);
+    public void afspraakKlaar(Account ac) {
+            accounts.remove(ac);
         }
 
         public void afspraakNietKlaar(Account ac) {
-            accounts.remove(ac);
+            accounts.add(ac);
         }
 
         public void melding() {

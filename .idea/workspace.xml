@@ -20,20 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/StatistiekGegeven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/AfspraakSituatie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/GeplandeAfspraak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OPT3/sample/Equivalentie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPT3/sample/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OPT3/sample/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OPT3/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OPT3/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OPT3/sample/Planning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/OPT3/sample/EquivalentieklassenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/OPT3/sample/ModifiedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Equivalentie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPT3/sample/StatistiekGegeven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OPT3/sample/StatistiekGegeven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Planning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sample/EquivalentieklassenTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sample/ModifiedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/StatistiekGegeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/StatistiekGegeven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +128,11 @@
       <recent name="sample" />
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -159,11 +158,24 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="OPT3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="JavaFxApplication" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -273,6 +285,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.EquivalentieklassenTest" />
         <item itemvalue="JUnit.ModifiedTest" />
         <item itemvalue="JUnit.ModifiedTest.testMethod" />
@@ -315,6 +328,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1620370783748" />
+    <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1621450948286">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1621450948286" />
     <state x="498" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1620370445948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -335,22 +352,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1620370583692" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1620596155885">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1621452976202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155885" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1620596155884">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1621452976202" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1621452976202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1620596155884">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1621452976202" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1621452976202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1620596155884">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1621452976202" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1621452976202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1620596155884" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/-1920.5.1536.864/0.0.1536.864@0.0.1536.864" timestamp="1621452976202" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1620370717651">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

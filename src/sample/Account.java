@@ -9,7 +9,7 @@ public class Account {
     }
 
     public void update() {
-        System.out.println("Hey " + naam + " je afspraak is afgevinkt");
+        System.out.println("Hey " + naam + " je afspraak voor ... staat nog niet afgevinkt");
     }
 
     public void bepaaldeMelding(StatistiekGegeven sta) {
@@ -21,12 +21,4 @@ public class Account {
 
 
 
-       // public boolean isAfgevinkt() {
-            //return afgevinkt;
-      //  }
 
-       // public boolean isAnalyse() {
-          //  return analyse;
-     //  }
-    //}
-//}
