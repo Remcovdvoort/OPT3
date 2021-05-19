@@ -41,11 +41,6 @@ public class Main extends Application {
         afspraakSituatie.afspraak();
         System.out.println("De afspraak is succesvol afgerond!");
 
-
-
-
-
-
     }
 }
 
