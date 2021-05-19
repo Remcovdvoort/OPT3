@@ -7,19 +7,19 @@ import java.util.ArrayList;
 public class StatistiekGegeven {
 
 
-        ArrayList<Account> accounts = new ArrayList<>();
+        ArrayList<Account> afspraken = new ArrayList<>();
         private String naam;
 
     public void afspraakKlaar(Account ac) {
-            accounts.remove(ac);
+            afspraken.remove(ac);
         }
 
         public void afspraakNietKlaar(Account ac) {
-            accounts.add(ac);
+            afspraken.add(ac);
         }
 
         public void melding() {
-            for (Account ac : accounts) {
+            for (Account ac : afspraken) {
                 ac.update();
             }
         }
